@@ -1,0 +1,7 @@
+default:
+  tags:
+    - tec
+include:
+  - project: TEC/tec-project-shared-ci
+    file: build-and-deploy.yaml
+
