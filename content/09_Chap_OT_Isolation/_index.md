@@ -1,7 +1,7 @@
 ---
 title: OT Isolation
 menuTitle:
-weight: 70
+weight: 90
 ---
 
 ![search_icon](mag_glass.svg)
