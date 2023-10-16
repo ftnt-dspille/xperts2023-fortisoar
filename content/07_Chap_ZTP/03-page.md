@@ -33,5 +33,5 @@ The connector could automatically configured because the fortisoar user was alre
 
 
 
-# Bonus Points :money_with_wings:
+## Bonus Points :money_with_wings:
 Investigate the playbook that triggered when we created the FortiManager record. What did it do?
