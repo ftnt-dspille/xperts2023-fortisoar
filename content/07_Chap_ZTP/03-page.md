@@ -1,10 +1,27 @@
 ---
-title:
-menuTitle:
+title: Create FortiManager Record
+menuTitle: Create FortiManager Record
 weight: 30
 ---
 
-![search_icon](mag_glass.svg)
-In this section we’ll explore the FortiManager ZTP modules on the system. Click around and checkout the record types inside the group. Feel free to click: ![Add button](add.png?classes=inline) to see what fields are used for records of the different modules. You can create records and delete records to just get a feel for the system if you like.
+![search_icon](check_box.svg)
+We will begin configuring FortiSOAR to connect to FortiManager. This will allow us to use FortiSOAR to manage FortiManager.
 
 ---
+
+1. Navigate to **FortiManager > Managers** and click the **+** button to add a new record.
+2. Enter the following information:
+    - **Manager Name**: FortiManager
+    - **Manager IP**: 10.100.88.10
+    - **Admin RPC Username**: fortisoar
+    - **Admin RPC Password**: fortinet
+![Create FortiManager Record](create_manager_screen.png)
+
+3. Click **Save**.
+
+---
+You will now see the FortiManager record populated with information from the FortiManager API. FortiSOAR automatically created the connector configuration for us and retrieved details about the device
+![FortiManager Record](manager_record.png)
+
+# Bonus Points :money_with_wings:
+Investigate the playbook that triggered when we created the FortiManager record. What did it do?

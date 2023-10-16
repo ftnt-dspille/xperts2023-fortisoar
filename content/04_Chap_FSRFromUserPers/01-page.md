@@ -18,4 +18,4 @@ To use this Solution Pack we need to install it (If not already installed). Use 
 - Select the **Solution Packs** Content Type checkbox, if it's not already selected
 - Search for “**phishing**” inside the **Discover Tab**.
 - Open the Solution Pack “**Phishing Email Response**” and install it ![Content Hub Search Results](contenthub1.png?height=400px)
-- You should see that the install was successful. ![Installation Success popup](installpack.png?height=300px)
+- You should see that the installation was successful. ![Installation Success popup](installpack.png?height=300px)

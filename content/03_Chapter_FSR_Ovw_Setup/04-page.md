@@ -27,4 +27,4 @@ Download the FortiSOAR Workshop systems settings {{% button href="https://fortin
 ### Bonus Points :money_with_wings:
 
 1. Go to **System > Application Editor> Export Wizard**
-1. Create your own **Export Template** to export any settings of your choosing
+2. Create your own **Export Template** to export any settings of your choosing

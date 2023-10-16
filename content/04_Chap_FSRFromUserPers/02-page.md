@@ -10,8 +10,8 @@ We can now use the scenario generator to create a phishing email alert that need
 ---
 
 1. Navigate to **Incident Response > Alerts** and click the "**Simulate Scenario**" button. ![Simulate Scenario button](simulate.png)
-1. Select the "**Phishing Email**" Scenario and Start the Scenario.![Phishing Email Button](phishemail.png)
-1. The Alert might come in as **Medium** at first and then will elevate to **Critical**. This is because a linked indicator was found to be malicious.
+2. Select the "**Phishing Email**" Scenario and Start the Scenario.![Phishing Email Button](phishemail.png)
+3. The Alert might come in as **Medium** at first and then will elevate to **Critical**. This is because a linked indicator was found to be malicious.
 
 |||
 | :-----: | :-----: |

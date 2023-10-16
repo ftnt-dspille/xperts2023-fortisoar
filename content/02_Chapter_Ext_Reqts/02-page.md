@@ -23,7 +23,7 @@ In this workshop we have playbooks that will leverage external accounts that we 
 ## IPQUALITYSCORE
 
 - Visit [IP Quality Score](https://www.ipqualityscore.com/) and create a free account if you don’t already have one.
-- Sign into IP Quality Score. On the left pane navigate to **Settings & Account Management** > **Account Settings**.
+- Sign in to IP Quality Score. On the left pane navigate to **Settings & Account Management** > **Account Settings**.
 ![IPQS Settings](ipqs_settings.png)
 
 - Under **Account Information** find your API Key Copy and Save your API Key.
