@@ -1,7 +1,7 @@
 ---
 title:
 menuTitle:
-weight: 40
+weight: 70
 ---
 
 ![search_icon](mag_glass.svg)
