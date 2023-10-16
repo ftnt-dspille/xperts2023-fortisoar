@@ -21,13 +21,18 @@ Scattered throughout the lab you will find various Bonus Points activities. Thes
 ## B. REVIEW AND ACCESS TO THE LAB
 
 ![search_icon](mag_glass.svg)
-The **FortiDemo-ThreatLab-7.4** in [FNDN>FortiDemo](https://fndn.fortinet.net/index.php?/fortidemo/instances/) has a lot of useful components we will use in this workshop. For this workshop we will only need access to the following resources that are in that environment:
+The **FortiDemo-FortiSOAR-7.4.1-GA** demo is hosted by Fortinet inside FNDN. Note the devices and credentials below. You will need these to complete the lab.
 
-- FortiSOAR
-- FortiMail
-- FortiGate
-- FortiAnalyzer
 
-![Lab Network Topology](environment.png)
+| Device Name | IP | User/Password |
+| :-----------: | :-----------: | :-----------: |
+| Enterprise_Core | 10.100.88.1 | fortinet/$3curityFabric |
+| FortiAnalyzer | 10.100.88.2 | fortinet/$3curityFabric |
+| FortiSOAR | 10.100.88.3 | csadmin/$3curityFabric |
+| FortiMail | 10.100.88.4 | fortinet/$3curityFabric |
+| Branch1 | 10.100.88.8 | admin/fortinet |
+| Branch2 | 10.100.88.9 | admin/fortinet |
+| FortiManager | 10.100.88.10 | admin/fortinet |
 
-However, you are welcome to use this environment to expand and test other integrations beyond what this lab guide covers to provide other POCs (proof of concepts) for your audience.
+
+![Lab Network Topology](lab_topology.png)

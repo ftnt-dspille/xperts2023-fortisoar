@@ -1,7 +1,7 @@
 ---
 title: FortiManager Modules
 menuTitle: FortiManager Modules
-weight: 5
+weight: 10
 ---
 
 ![search_icon](mag_glass.svg)
