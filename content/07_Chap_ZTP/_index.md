@@ -1,19 +1,14 @@
 ---
-title: ZTP
-menuTitle: Build a Custom Module
+title: ZTP Overview
+menuTitle: ZTP Overview
 weight: 70
 ---
 
-![search_icon](check_box.svg)
-Zero Touch Provisioning (ZTP) is a network deployment and configuration automation technique used by Fortinet's FortiGate firewalls and FortiManager centralized management platform. ZTP streamlines the process of deploying and managing network security infrastructure
-
-ZTP enables the automatic provisioning and configuration of new devices when they are first connected to the network. This eliminates the need for manual setup and reduces the risk of misconfigurations. When a FortiGate device is powered on and connected to the network, it can automatically discover the FortiManager and retrieve its configuration, policies, and updates.
-
-FortiManager plays a crucial role in ZTP by acting as the central point of control for managing multiple FortiGate devices. It stores the configuration templates, policies, and security profiles that need to be applied to FortiGate units. With ZTP, FortiManager can push these configurations to new or replacement FortiGate devices, making it easy to maintain consistent security policies across the network.
-
-Overall, ZTP for FortiGate and FortiManager simplifies the deployment and management of network security devices, reducing the time and effort required for initial setup and ongoing maintenance while enhancing network security by ensuring consistent configurations across all devices.
+![search_icon](mag_glass.svg)
+Zero Touch Provisioning (ZTP) is an automated deployment and configuration technique used by Fortinet's FortiGate firewalls and FortiManager central management platform. ZTP streamlines network security infrastructure deployment, allowing for automatic provisioning and configuration of new devices upon network connection, reducing manual setup, and minimizing misconfiguration risks. FortiManager acts as a central control point, storing configuration templates, policies, and security profiles for FortiGate devices, which ZTP then uses to maintain consistent security policies and simplify network security device deployment and management. This enhances network security while saving time and effort on setup and maintenance.
 
 ![FortiSOAR FortiManager Summary](fortisoar-fortimanager-summary-visual.png)
+
 
 ## Objectives
 
