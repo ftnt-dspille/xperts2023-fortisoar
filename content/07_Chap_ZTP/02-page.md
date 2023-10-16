@@ -1,6 +1,6 @@
 ---
-title: ZTP Phases windows
-menuTitle: ZTP Phases windows
+title: ZTP Phases
+menuTitle: ZTP Phases
 weight: 20
 ---
 

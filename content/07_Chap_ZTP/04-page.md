@@ -32,11 +32,15 @@ Create a Metafield Template for the ZTP Profile
 2. Set the following fields (leave the rest as default):
     - **Name**: ```Branch ZTP Variables```
     - **Description**: ```Metafields for Fortinet XPERTS 2023```
-    - **Metafields**: ```{"contact_email": "socuser1@financial.local", "admin_user_name": "xpert_admin", "loopback0_ip": "" }```
+    - **Metafields**: ```{"contact_email": "socuser1@financial.local", "admin_user_name": "xpert_admin", "global_timeout": "3600", "loopback0_ip": "" }```
 3. Click **Create**.
 
 You will now see a new metafield template added and linked to the ZTP profile. This metafield template will be used to populate the metafields for the Script Templates, or be used for overrides on the ZTP profile
 ![Metafield Template](metafield_template.png)
+
+{{% notice note %}}
+The metafields are used to pass variables to the scripts. The metafields are referenced in the scripts using the following syntax: `{{devmeta.metafield_name}}`
+{{% /notice %}}
 
 ---
 1. Scroll down to the Related Records tab and click the **+** button on the **Scripts** section add a new record.
@@ -57,3 +61,7 @@ end```
 You will now see a new script added and linked to the ZTP profile. This script will be executed on the FortiGate along with other scripts you create based on the order priority.
 ![CLI Script ZTP Profile](cli_script_ztp_profile.png)
 
+
+---
+test 
+![img.png](img.png)
