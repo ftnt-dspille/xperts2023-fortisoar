@@ -12,7 +12,7 @@ In this section we’ll create a ZTP profile that will be used to configure the 
 2. Set the following fields (leave the rest as default):
     - **Name**: ```Branch ZTP Profile```
     - **Description**: ```Basic ZTP Profile for Fortinet XPERTS 2023```
-    - **Assignment Mode**: ```Automatic```
+    - **Assignment Mode**: ```Manual```
     - **Assignment Search Fields**: ```Device Name```
     - **Assignment Search**: ```Branch[1-2]```
     - **Adom**: ```root```
@@ -25,7 +25,20 @@ Congrats! You made your first ZTP profile. Now we need to add some configuration
 ![ZTP Profile](ztp_profile.png)
 
 ---
+<!---
+Create a Metafield Template for the ZTP Profile
+-->
+1. Scroll down to the Related Records tab and click the **+** button on the **Metafield Template** section add a new record.
+2. Set the following fields (leave the rest as default):
+    - **Name**: ```Branch ZTP Variables```
+    - **Description**: ```Metafields for Fortinet XPERTS 2023```
+    - **Metafields**: ```{"contact_email": "socuser1@financial.local", "admin_user_name": "xpert_admin", "loopback0_ip": "" }```
+3. Click **Create**.
 
+You will now see a new metafield template added and linked to the ZTP profile. This metafield template will be used to populate the metafields for the Script Templates, or be used for overrides on the ZTP profile
+![Metafield Template](metafield_template.png)
+
+---
 1. Scroll down to the Related Records tab and click the **+** button on the **Scripts** section add a new record.
 ![Add ZTP Profile Script](add_ztp_profile_script.png)
 2. Set the following fields (leave the rest as default):
@@ -33,7 +46,7 @@ Congrats! You made your first ZTP profile. Now we need to add some configuration
     - **Description**: ```This script will create an admin user on a FortiGate for Fortinet XPERTS 2023```
     - **Script Type**: ```Remote CLI```
     - **Script**: ```config system admin
-    edit "expert_admin"
+    edit "{{devmeta.admin_user_name}}"
         set accprofile "super_admin"
         set vdom "root"
         set password fortinet
@@ -43,7 +56,4 @@ end```
 
 You will now see a new script added and linked to the ZTP profile. This script will be executed on the FortiGate along with other scripts you create based on the order priority.
 ![CLI Script ZTP Profile](cli_script_ztp_profile.png)
-
-
-
 
