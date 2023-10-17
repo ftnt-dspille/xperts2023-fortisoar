@@ -47,37 +47,40 @@ The metafields are used to pass variables to the scripts. The metafields are ref
 ![Add ZTP Profile Script](add_ztp_profile_script.png)
 2. Set the following fields in the (leave the rest as default):
 
+<table>
+<tr>
+<td> Field </td> <td> Value </td>
+</tr>
+<tr>
+
+<tr>
+<td> Name </td> <td> ```Configure an admin user``` </td>
+</tr>
+<tr>
+<td> Description </td> <td> ```This script will create an admin user on a FortiGate for Fortinet XPERTS 2023``` </td>
+</tr>
+<tr>
+<td> Script Type </td> <td> ```Remote CLI``` </td>
+</tr>
+<tr>
+<td> Script </td> <td> 
+
+```
+config system admin
+  edit "{{devmeta.admin_user_name}}"
+    set accprofile "super_admin"
+    set vdom "root"
+    set password fortinet
+  next
+end
+``` 
+
+</td>
+</tr>
+</table> 
 
 
-| Name        | Value                                                                                                                   |
-|-------------|-------------------------------------------------------------------------------------------------------------------------|
-| Name        | ```Configure an admin user```                                                                                           |
-| Description | ```This script will create an admin user on a FortiGate for Fortinet XPERTS 2023```                                     |
-| Script Type | ```Remote CLI```                                                                                                        |
-| Script      | ```config system admin<br>&nbsp;&nbsp;edit "{{devmeta.admin_user_name}}"<br>&nbsp;&nbsp;set accprofile "super_admin"``` |
-
-set vdom "root"
-        set password fortinet
-    next
-end``` |
-
-
-    - **Name**: ```Configure an admin user```
-    - **Description**: ```This script will create an admin user on a FortiGate for Fortinet XPERTS 2023```
-    - **Script Type**: ```Remote CLI```
-    - **Script**: ```config system admin
-    edit "{{devmeta.admin_user_name}}"
-        set accprofile "super_admin"
-        set vdom "root"
-        set password fortinet
-    next
-end```
 3. Click **Create**.
 
 You will now see a new script added and linked to the ZTP profile. This script will be executed on the FortiGate along with other scripts you create based on the order priority.
 ![CLI Script ZTP Profile](cli_script_ztp_profile.png)
-
-
----
-test
-![img.png](img.png)
