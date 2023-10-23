@@ -28,7 +28,7 @@ Congrats! You made your first ZTP profile. Now we need to add some configuration
 <!---
 Create a Metafield Template for the ZTP Profile
 -->
-1. Scroll down to the Related Records tab and click the **+** button on the **Metafield Template** section add a new record.
+1. Scroll down to the Related Records tab and click the [Add button](add.png?classes=inline) button on the **Metafield Template** section add a new record.
 2. Set the following fields (leave the rest as default):
     - **Name**: ```Branch ZTP Variables```
     - **Description**: ```Metafields for Fortinet XPERTS 2023```
@@ -52,7 +52,7 @@ The metafields are used to pass variables to the scripts. The metafields are ref
 {{% /notice %}}
 
 ---
-1. Scroll down to the Related Records tab and click the **+** button on the **Scripts** section add a new record.
+1. Scroll down to the Related Records tab and click the [Add button](add.png?classes=inline) button on the **Scripts** section add a new record.
 ![Add ZTP Profile Script](add_ztp_profile_script.png)
 2. Set the following fields in the (leave the rest as default):
 - **Name**: `Configure an admin user`

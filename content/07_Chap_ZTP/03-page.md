@@ -9,12 +9,12 @@ We will begin configuring FortiSOAR to connect to FortiManager. This will allow 
 
 ---
 
-1. Navigate to **FortiManager > Managers** and click the **+** button to add a new record.
+1. Navigate to **FortiManager > Managers** and click the ![Add button](add.png?classes=inline) button to add a new record.
 2. Enter the following information:
-    - **Manager Name**: FortiManager
-    - **Manager IP**: 10.100.88.10
-    - **Admin RPC Username**: fortisoar
-    - **Admin RPC Password**: fortinet
+    - **Manager Name**: ```FortiManager```
+    - **Manager IP**: ```10.100.88.10```
+    - **Admin RPC Username**: ```fortisoar```
+    - **Admin RPC Password**: ```fortinet```
 
 ![Create FortiManager Record](create_manager_screen.png)
 
