@@ -8,7 +8,7 @@ weight: 40
 In this section we’ll create a ZTP profile that will be used to configure the FortiGate when it shows up in FortiManager.
 ---
 
-1. Navigate to **FortiManager ZTP Profiles** and click the **+** button to add a new record.
+1. Navigate to **FortiManager ZTP Profiles** and click the ![Add button](add.png?classes=inline) button to add a new record.
 2. Set the following fields (leave the rest as default):
     - **Name**: ```Branch ZTP Profile```
     - **Description**: ```Basic ZTP Profile for Fortinet XPERTS 2023```
@@ -32,7 +32,16 @@ Create a Metafield Template for the ZTP Profile
 2. Set the following fields (leave the rest as default):
     - **Name**: ```Branch ZTP Variables```
     - **Description**: ```Metafields for Fortinet XPERTS 2023```
-    - **Metafields**: ```{"contact_email": "socuser1@financial.local", "admin_user_name": "xpert_admin", "admin_timeout": "120", "loopback0_ip": "" }```
+    - **Metafields**:
+         
+    ```json
+    {
+      "contact_email": "socuser1@financial.local",
+      "admin_user_name": "xpert_admin",
+      "admin_timeout": "120",
+      "loopback0_ip": "" 
+   }
+   ```
 3. Click **Create**.
 
 You will now see a new metafield template added and linked to the ZTP profile. This metafield template will be used to populate the metafields for the Script Templates, or be used for overrides on the ZTP profile
