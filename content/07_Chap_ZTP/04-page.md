@@ -32,11 +32,11 @@ Keep in mind, we set the ZTP profile mode to **Manual**. We will change this lat
 ---
 ## Create Metafield Template Record
 
-1. Scroll down to the Related Records tab and click the ![Add button](add.png?classes=inline) button on the **Metafield Template** section add a new record.
+1. Scroll down to the Related Records tab, click the **Metafield Templates** subtab, and click the ![Add button](add.png?classes=inline) button on the **Metafield Template** section add a new record.
 
 ![Add metafield template](Add_metafield_template.png)
 
-2. Set the following fields (leave the rest as default):
+2. Set the following fields on the popup (leave the rest as default):
     - **Name**: ```Branch ZTP Variables```
     - **Description**: ```Metafields for Fortinet XPERTS 2023```
     - **Metafields**:
@@ -63,10 +63,10 @@ The metafields are used to pass variables to the scripts. The metafields are ref
 ---
 
 ## Create Script Record
-1. Scroll down to the Related Records tab and click the ![Add button](add.png?classes=inline) button on the **Scripts** section add a new record.
+1. Scroll down to the Related Records tab, click the **Scripts** sub-tab, and click the ![Add button](add.png?classes=inline) button on the **Scripts** section add a new record.
 ![Add ZTP Profile Script](add_ztp_profile_script.png)
-2. Set the following fields in the (leave the rest as default):
-- **Name**: `Configure an admin user`
+2. Set the following fields on the popup (leave the rest as default):
+- **Name**: `Configure An Admin User`
 - **Description**: `This script will create an admin user on a FortiGate for Fortinet XPERTS 2023`
 - **Script Type**: `Remote CLI`
 - **Script**:
@@ -85,7 +85,6 @@ The metafields are used to pass variables to the scripts. The metafields are ref
   ```
 
 3. Click **Create**.
-4. Click 
 
 You will now see a new script added and linked to the ZTP profile. This script will be executed on the FortiGate along with other scripts you create based on the order priority.
 ![CLI Script ZTP Profile](cli_script_ztp_profile.png)
