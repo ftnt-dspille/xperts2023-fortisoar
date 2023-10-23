@@ -6,8 +6,9 @@ weight: 40
 
 ![search_icon](check_box.svg)
 In this section we’ll create a ZTP profile that will be used to configure the FortiGate when it shows up in FortiManager.
----
 
+---
+## Create ZTP Profile
 1. Navigate to **FortiManager ZTP Profiles** and click the ![Add button](add.png?classes=inline) button to add a new record.
 2. Set the following fields (leave the rest as default):
     - **Name**: ```Branch ZTP Profile```
@@ -25,13 +26,12 @@ Congrats! You made your first ZTP profile. If we stopped here, we would hav a ZT
 ![ZTP Profile](ztp_profile.png)
 
 {{% notice note %}}
-Keep in mind, we set the ZTP profile mode to `Manual`. We will change this later on.
+Keep in mind, we set the ZTP profile mode to **Manual**. We will change this later on.
 {{% /notice %}}
 
 ---
-<!---
-Create a Metafield Template for the ZTP Profile
--->
+## Create Metafield Template Record
+
 1. Scroll down to the Related Records tab and click the ![Add button](add.png?classes=inline) button on the **Metafield Template** section add a new record.
 2. Set the following fields (leave the rest as default):
     - **Name**: ```Branch ZTP Variables```
@@ -56,6 +56,8 @@ The metafields are used to pass variables to the scripts. The metafields are ref
 {{% /notice %}}
 
 ---
+
+## Create Script Record
 1. Scroll down to the Related Records tab and click the ![Add button](add.png?classes=inline) button on the **Scripts** section add a new record.
 ![Add ZTP Profile Script](add_ztp_profile_script.png)
 2. Set the following fields in the (leave the rest as default):
