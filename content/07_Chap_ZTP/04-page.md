@@ -50,9 +50,11 @@ Keep in mind, we set the ZTP profile mode to **Manual**. We will change this lat
    }
    ```
 3. Click **Create**.
+4. You may need to click the refresh button underneath the metafield section if you don't see the new template there. The refresh only affects visibility, not functionality of the template.
 
-You will now see a new metafield template added and linked to the ZTP profile. This metafield template will be used to populate the metafields for the Script Templates, or be used for overrides on the ZTP profile
-![Metafield Template](metafield_template.png)
+![Refresh metadfield](refresh_metafield.png)
+
+You will now see a new metafield template added and linked to the ZTP profile. This Metafield template will be used to populate the metafields for the Script Templates, or be used for overrides on the ZTP profile.
 
 {{% notice note %}}
 The metafields are used to pass variables to the scripts. The metafields are referenced in the scripts using the following syntax: `{{devmeta.metafield_name}}`
@@ -83,6 +85,7 @@ The metafields are used to pass variables to the scripts. The metafields are ref
   ```
 
 3. Click **Create**.
+4. Click 
 
 You will now see a new script added and linked to the ZTP profile. This script will be executed on the FortiGate along with other scripts you create based on the order priority.
 ![CLI Script ZTP Profile](cli_script_ztp_profile.png)
