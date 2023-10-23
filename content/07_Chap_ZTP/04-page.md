@@ -33,6 +33,9 @@ Keep in mind, we set the ZTP profile mode to **Manual**. We will change this lat
 ## Create Metafield Template Record
 
 1. Scroll down to the Related Records tab and click the ![Add button](add.png?classes=inline) button on the **Metafield Template** section add a new record.
+
+![Add metafield template](Add_metafield_template.png)
+
 2. Set the following fields (leave the rest as default):
     - **Name**: ```Branch ZTP Variables```
     - **Description**: ```Metafields for Fortinet XPERTS 2023```
