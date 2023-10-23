@@ -28,7 +28,6 @@ Congrats! You made your first ZTP profile. If we stopped here, we would hav a ZT
 Keep in mind, we set the ZTP profile mode to `Manual`. We will change this later on.
 {{% /notice %}}
 
-
 ---
 <!---
 Create a Metafield Template for the ZTP Profile
