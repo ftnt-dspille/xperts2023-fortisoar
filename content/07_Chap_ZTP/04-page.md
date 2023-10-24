@@ -17,8 +17,8 @@ In this section we’ll create a ZTP profile that will be used to configure the 
     - **Assignment Search Fields**: ```Device Name```
     - **Assignment Search**: ```Branch[1-2]```
     - **Adom**: ```root```
-    - **Device Groups**: ```Branch Devices```
-    - **Policy Package**: ```Golden Branch```
+    - **Device Groups**: ```Branch_Devices```
+    - **Policy Package**: ```Golden_Branch```
 
 3. Click **Save**.
 
