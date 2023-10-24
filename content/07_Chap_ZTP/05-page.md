@@ -10,5 +10,19 @@ In this section we’ll onboard a FortiGate manually so that it checks into Fort
 ---
 
 ## Onboard a FortiGate
-1. Login to FortiManager using admin/```fortinet``` and navigate to **Device Manager > Add a Device**.
+1. Login to Branch1 using admin/```fortinet```
+2. Navigate to **Security Fabric > Fabric Connectors**.
+2. Click **Central Management**
+    - Click **Enabled**
+    - Type ```10.100.88.10``` in the **IP Address** field.
+    - Click OK
 
+![Authorize FMG](authorize_fmg.png)
+
+
+## Confirm FortiGate is unauthorized in FortiManager
+1. Login to FortiManager using admin/```fortinet```
+2. Navigate to **Device Manager > Unauthorized Devices**
+3. Confirm that the Branch1 FortiGate is listed
+
+![Unauthorized branch1](unauthed_devices.png)
