@@ -30,4 +30,18 @@ When provisioning devices, there are often unique values that each device needs.
 1. Open the Branch1 Record by clicking on any non-hyperlinked part of the row (e.g. Manager or ZTP Profile Column values)
 2. Notice that the **ZTP Phase** is now **Pending**, and that the loopback0_ip variable is Yellow and doesn't have a value. This means that the variable is not set.
 ![Branch1 pending ](branch1_pending.png)
-3.
+3.Exit the Device record view by clicking the **X** in the top left corner of the page
+4. Click the Pending Tasks button in the top right corner of the page (Looks like a clipboard with a checkmark)
+![pending task icon](pending_task.png)
+5. Click the pending task **Fill out the empty device variables ( Branch1(FortiManager) )**
+![Fill variable task branch1](fill_variable_task.png)
+6. Type in ```172.168.1.1``` in the **loopback0_ip** field
+![Fill in loopback](loopback_0_ip.png)
+7. Click **Continue**
+
+## Watch ZTP in Action
+1. Open the Branch1 Record by clicking on any non-hyperlinked part of the row (e.g. Manager or ZTP Profile Column values)
+2. Notice that the loopback0_ip variable is now green and has a value. This means that the variable is set.
+
+This process will take 1-2 minutes. You can watch the progress in the Workspace tab of the Device record. You will see the comments from the ZTP process. This is a great way to see what happened during the ZTP process. It will show rendered script templates from the Device Metadata.
+![branch1 complete](branch1_complete.png)
