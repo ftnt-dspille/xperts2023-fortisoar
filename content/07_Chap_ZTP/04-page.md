@@ -75,41 +75,42 @@ The metafields are used to pass variables to the scripts. The metafields are ref
 - **Script Type**: `Remote CLI`
 - **Script**:
   
-   ```text
-   config firewall policy
-     purge
-   end
-   config system sdwan
-     config service
-       purge
-     end
-     config neighbor
-       purge
-     end
-     config health-check
-       purge
-     end
-     config members
-       purge
-     end
-     config zone
-       purge
-     end
-     set status disable 
-   end
-   config vpn ipsec phase2-interface
-     purge
-   end
-   config vpn ipsec phase1-interface
-     purge
-   end
-   config firewall address
-     purge
-   end
-   config firewall service
-     purge
-   end
-  ```
+    ```text
+   	config firewall policy
+		purge
+	end
+	config system sdwan
+		config service
+			purge
+		end
+		config neighbor
+			purge
+		end
+		config health-check
+			purge
+		end
+		config members
+			purge
+		end
+		config zone
+			purge
+		end
+		set status disable 
+	end
+	config vpn ipsec phase2-interface
+		purge
+	end
+	config vpn ipsec phase1-interface
+		purge
+	end
+	config firewall address
+		purge
+	end
+	config firewall service
+		purge
+	end
+    ```
+
 3. Click **Create**.
 
 {{% notice note %}}
@@ -121,23 +122,32 @@ The order priority is used to determine the order in which the scripts are execu
 1. Scroll down to the Related Records tab, click the **Scripts** sub-tab, and click the ![Add button](add.png?classes=inline) button on the **Scripts** section add a new record.
 ![Add ZTP Profile Script](add_ztp_profile_script.png)
 2. Set the following fields on the popup (leave the rest as default):
-- **Name**: `Configure An Admin User`
+- **Name**: `Configure Admin User and Loopback interface`
 - **Description**: `This script will create an admin user on a FortiGate for Fortinet XPERTS 2023`
 - **Script Type**: `Remote CLI`
 - **Script**:
   
-   ```text
-   config system global
-     set admintimeout {{devmeta.admin_timeout}}
-   end
-   config system admin
-     edit "{{devmeta.admin_user_name}}"
-       set accprofile "super_admin"
-       set vdom "root"
-       set password fortinet
-     next
-   end
-  ```
+    ```text
+    config system global
+	    set admintimeout {{devmeta.admin_timeout}}
+    end
+    config system admin
+        edit "{{devmeta.admin_user_name}}"
+        set accprofile "super_admin"
+        set vdom "root"
+        set password fortinet
+        next
+    end
+    config system interface
+        edit "Loopback0"
+            set vdom "root"
+            set ip {{devmeta.loopback0_ip}} 255.255.255.255
+            set allowaccess ping
+            set type loopback
+            set description "Loopback0 for XPERTS"
+        next
+    end
+    ```
 
 3. Click **Create**.
 
