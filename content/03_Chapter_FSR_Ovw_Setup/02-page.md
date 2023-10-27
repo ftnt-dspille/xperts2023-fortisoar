@@ -14,6 +14,8 @@ The Resources Group is where records that could be known assets, documents, and/
 |   Module Name   |                                                                     Description                                                                      |
 |:---------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------:|
 |   Attachments   |                                                  A module for storing documents of multiple types.                                                   |
-|     Assets      | An index of assets that can store a variety of hardware or software assets known to the organization. **Could be used in many business operations**. |
 | Email Templates |                                         Email Templates used by the system or other forms of communication.                                          |
+|     Assets      | An index of assets that can store a variety of hardware or software assets known to the organization. **Could be used in many business operations**. |
+|    Key Store    |                                                    A module for storing arbitrary keys and values                                                    |
+
 

@@ -21,7 +21,7 @@ We want to setup an SMTP configuration for FortiSOAR communications if not alrea
 This is how you open all connectors, solution packs, and widgets in the Content Hub
 {{% /notice %}}
 
-- Confirm that the configuration matches the below settings. If not, configure the connector to match the below settings
+- The default SMTP configuration uses localhost postfix service. We want to configure the connector to match the below settings instead of the default
 
 |||
 |:-----:|:-----:|

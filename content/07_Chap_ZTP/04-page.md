@@ -22,7 +22,7 @@ In this section we’ll create a ZTP profile that will be used to configure the 
 
 3. Click **Save**.
 
-Congrats! You made your first ZTP profile. If we stopped here, we would hav a ZTP profile that we can manually apply to FortiGates, and it would then automatically add them to the group and policies defined in the ZTP profile, and install the policy. But usually Zero touch configurations need more configuration than just a policy package and device group, so lets see what it takes to set that up.
+Congrats! You made your first ZTP profile. If we stopped here, we would have a ZTP profile that we can manually apply to FortiGates, and it would then automatically add them to the group and policies defined in the ZTP profile, and install the policy. But usually Zero touch configurations need more configuration than just a policy package and device group, so lets see what it takes to set that up.
 ![ZTP Profile](ztp_profile.png)
 
 {{% notice note %}}
@@ -39,7 +39,7 @@ Keep in mind, we set the ZTP profile mode to **Manual**. We will change this lat
 2. Set the following fields on the popup (leave the rest as default):
     - **Name**: ```Branch ZTP Variables```
     - **Description**: ```Metafields for Fortinet XPERTS 2023```
-    - **Metafields**:
+    - **Metafield Template**:
          
     ```json
     {
@@ -72,7 +72,7 @@ The metafields are used to pass variables to the scripts. The metafields are ref
 - **Order Priority**: `90`
 - **Name**: `Purge FortiGate config`
 - **Description**: `This script will purge FortiGate config for Fortinet XPERTS 2023`
-- **Script Type**: `Remote CLI`
+- **Type**: `Remote CLI`
 - **Script**:
   
     ```text
@@ -124,7 +124,7 @@ The order priority is used to determine the order in which the scripts are execu
 2. Set the following fields on the popup (leave the rest as default):
 - **Name**: `Configure Admin User and Loopback interface`
 - **Description**: `This script will create an admin user on a FortiGate for Fortinet XPERTS 2023`
-- **Script Type**: `Remote CLI`
+- **Type**: `Remote CLI`
 - **Script**:
   
     ```text

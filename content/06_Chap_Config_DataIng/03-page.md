@@ -33,6 +33,6 @@ In this section we will configure FortiSOAR to retrieve FortiAnalyzer events.
     |:-----:|:-----:|
     |![Field mapping view](fmap.png)|![Jinja zoomed in](jinja.png)|
 
-1. Schedule the fetch to run every **15 minutes** and **limit the execution to onc** active instance at a time. Change the hour from “0”, shown in this picture to “*” to be every 15 minutes.  Then **Save Settings & Continue**. ![Schedule Settings](sched.png)
+1. Schedule the fetch to run every **15 minutes** and **limit the execution to one** active instance at a time. Change the hour from “0”, shown in this picture to “*” to be every 15 minutes.  Then **Save Settings & Continue**. ![Schedule Settings](sched.png)
 
 1. Click the Trigger Ingestion Now button to kick off the playbook. ![Trigger ingestion now button](triging.png)

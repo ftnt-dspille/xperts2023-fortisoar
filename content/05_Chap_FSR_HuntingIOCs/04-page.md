@@ -10,7 +10,7 @@ This will open the playbook history for this record. Find the playbook named **H
 
 ---
 
-1. Look at the **Configuration** step. The **OUTPUT** set the variable called **sunburst_ioc_urls** to the URL we will use to [download the CSV file](https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv). ![Hunt Sunburst Playbook Execution](editsunburst.png)
+1. Look at the **Configuration** step. The **OUTPUT** set the variable called **sunburstIocUrls** to the URL we will use to [download the CSV file](https://raw.githubusercontent.com/sophos-cybersecurity/solarwinds-threathunt/master/iocs.csv). ![Hunt Sunburst Playbook Execution](editsunburst.png)
 
 1. The next step, **Download IOCs CSV File**, has an input configuration to loop on the variable **sunburst_ioc_urls**. ![Download IOC step output](downloadiocs.png)
 

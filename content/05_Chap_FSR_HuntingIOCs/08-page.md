@@ -21,4 +21,6 @@ weight: 40
 
 2. Change the **Status** of the **Incident** to **Resolved**. ![Status change](resolved.png)
 
-3. The process for closing the **Incident** prompts you for some further information. ![Incident Closure popup](prompt2.png)
+3. The process for closing the **Incident** prompts you for some further information. Make sure to scroll down and fill out the **Resolution** field
+4. Click **Update**
+![Incident Closure popup](prompt2.png)

@@ -28,7 +28,7 @@ You will now see the FortiManager record populated with information from the For
 ![FMG RPC Connector](fmg_rpc_connector.png)
 
 {{% notice note %}}
-The connector could automatically configured because the fortisoar user was already present on FortiManager. Normally you would need to create an api user with rest api permissions
+The connector could automatically be configured because the fortisoar user was already present on FortiManager. Normally you would need to create an api user with rest api permissions
 {{% /notice %}}
 
 

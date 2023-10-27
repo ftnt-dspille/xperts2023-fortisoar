@@ -14,4 +14,9 @@ You should see new events last updated “**A few seconds ago**”.
 2. Sign in with fortinet/```$3curityFabric```
 3. Go to **Incidents & Events > Events Monitor**
 4. Confirm you see botnet events created with Medium or High Severity
+
+{{% notice note %}}
+Events may take a few minutes to appear.
+{{% /notice %}}
+
 ![Faz event grid display](fsoc.png)

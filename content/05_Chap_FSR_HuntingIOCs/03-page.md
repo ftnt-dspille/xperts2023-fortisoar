@@ -11,7 +11,7 @@ We will use the playbook called **Sunburst IOC Hunt** available on this Hunt rec
 
 ---
 
-1. Go to the **Incident Response > Hunt** module. ![Navigate to Hunt](hunt.png)
+1. Go to the **Incident Response > Hunts** module. ![Navigate to Hunt](hunt.png)
 
 1. Open the **Demo Hunt – Sunburst Attack** record. ![Hunt Record](demohunt.png)
 
