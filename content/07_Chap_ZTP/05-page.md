@@ -9,6 +9,10 @@ In this section we’ll onboard a FortiGate manually so that it checks into Fort
 
 ---
 
+{{% notice warning %}}
+Do not Authorize Branch1. We will do that later.
+{{% /notice %}}
+
 ## Onboard a FortiGate
 1. Login to Branch1 using admin/```fortinet```
 2. Navigate to **Security Fabric > Fabric Connectors**.
@@ -26,7 +30,7 @@ In this section we’ll onboard a FortiGate manually so that it checks into Fort
 3. Confirm that the Branch1 FortiGate is listed
 
 {{% notice warning %}}
-Do not Authorize the device yet. We will do that in the next section.
+Do not Authorize Branch1. We will do that later.
 {{% /notice %}}
 
 ![Unauthorized branch1](unauthed_devices.png)
