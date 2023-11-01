@@ -25,4 +25,8 @@ In this section we’ll onboard a FortiGate manually so that it checks into Fort
 2. Navigate to **Device Manager > Unauthorized Devices**
 3. Confirm that the Branch1 FortiGate is listed
 
+{{% notice warning %}}
+Do not Authorize the device yet. We will do that in the next section.
+{{% /notice %}}
+
 ![Unauthorized branch1](unauthed_devices.png)

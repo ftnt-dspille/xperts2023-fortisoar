@@ -11,4 +11,4 @@ You can use this to customize or redesign the look and feel of how to navigate F
 
 ---
 
-The Navigation Group is defined in Settings>Application Editor>Navigation. ![Navigation Page](nav.png)|
+The Navigation Group is defined in **Settings> Application Editor> Navigation**. ![Navigation Page](nav.png)|

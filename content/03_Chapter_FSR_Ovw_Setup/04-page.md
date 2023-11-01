@@ -16,8 +16,10 @@ Download the FortiSOAR Workshop systems settings {{% button href="https://fortin
 - Go to **System > Application Editor> Import Wizard** and import the file **FortiSOAR-SE_Training2023-Workshop.zip** by clicking **Import from File**
 ![Import Wizard](appeditor.png?height=300px)
 
-- Leave all the default settings and import all the components in the file and click ![Continue button](continue.png?height=40px&classes=left)
+- Leave all the default settings and import all the components in the file and click ![Continue button](continue.png?height=40px&classes=inline) twice
 ![Select configuration to import](selectconfigs.png?height=250px)
+
+- Click **Run Import** to import the configuration
 
 - The import should complete without error.
 ![Import Success](import.png?height=250px)
