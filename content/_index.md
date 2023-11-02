@@ -1,10 +1,10 @@
 ---
-title: FortiSOAR in the Business Environment
+title: "Can't Code? No Problem: Soar with Automation and Boost Productivity by Doing Less"
 weight: 1
 archetype: home
 ---
 
-# SE Summit
+# XPERTS 2023
 
 ## Lab Guide
 
