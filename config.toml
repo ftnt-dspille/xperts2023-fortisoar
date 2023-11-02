@@ -70,6 +70,11 @@ url = "allpages.html"
 weight = 1
 
 [[menu.shortcuts]]
+name = "<i class='fas fa-file'></i> Presentation PDF"
+url = "Cant_Code_Presentation.pdf"
+weight = 2
+
+[[menu.shortcuts]]
 name = "<i class='fas fa-vial'></i> FNDN - ThreatLab FortiDemo"
 url = "https://fndn.fortinet.net/index.php?/fortidemo/instances/"
 weight = 7
