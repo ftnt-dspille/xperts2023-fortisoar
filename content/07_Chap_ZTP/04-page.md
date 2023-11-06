@@ -9,7 +9,7 @@ In this section we’ll create a ZTP profile that will be used to configure the 
 
 ---
 ## Create ZTP Profile
-1. Navigate to **FortiManager ZTP Profiles** and click the ![Add button](add.png?classes=inline) button to add a new record.
+1. Navigate to **FortiManager > ZTP Profiles** and click the ![Add button](add.png?classes=inline) button to add a new record.
 2. Set the following fields (leave the rest as default):
     - **Name**: ```Branch ZTP Profile```
     - **Description**: ```Basic ZTP Profile for Fortinet XPERTS 2023```
