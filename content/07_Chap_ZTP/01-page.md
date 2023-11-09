@@ -23,4 +23,3 @@ The FortiManager Group is where we will find records that are used for FortiMana
 ---
 On the Managers Module you will see a clickable navigation menu that can take you to different modules or Dashboards. The navigation is there to reduce the number of clicks to navigate to different modules. The navigation menu is also available on the other modules.
 ![navigation bookmark](navigation.png?height=300px)
-fv
