@@ -5,8 +5,8 @@ weight: 5
 ---
 
 ![user_complete_icon](check_box.svg)
-Download FortiSOAR-SE_Training2023-PolicyModule.zip, the workshop’s custom module for policy management, {{% button href="https://fortinet.egnyte.com/dl/1xEtUxzzNB/FortiSOAR-SE_Training2023-PolicyModule.zip_" %}}Here{{% /button %}} . This is a solution that we can import into your FortiSOAR instance to handle our policy management use case.
-
+Download FortiSOAR-SE_Training2023-PolicyModule.zip, the workshop’s custom module for policy management, {{% button href="https://fortinet.egnyte.com/dl/5iEvGTe76o/FortiSOAR-SE_Training2023-PolicyModule.zip_" %}}Here{{% /button %}} . This is a solution that we can import into your FortiSOAR instance to handle our policy management use case.
+Password: `p9iFpVjg`
 ---
 
 1. Navigate to System Settings (Gear Icon at the top right). ![System Settings Icon](topright.png)

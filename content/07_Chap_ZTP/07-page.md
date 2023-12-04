@@ -22,13 +22,14 @@ So far there has been a lot of touch! But we're _very_ close to zero now. In thi
 ---
 
 ## Import Playbook Collection
-1. Download the file **FOS ZTP Helpers.zip** {{% button href="https://fortinet.egnyte.com/dl/oNXZAAweQ2/FOS_ZTP_Helpers.zip_" %}}Here{{% /button %}}
+1. Download the file **FOS ZTP Helpers.zip** {{% button href="https://fortinet.egnyte.com/dl/w9ddI7kSKz/FOS_ZTP_Helpers.zip_" %}}Here{{% /button %}}
+Password: `p9iFpVjg`
 2. Go to **System > Application Editor> Import Wizard**
 3. click **Import from File** and select the file **FOS ZTP Helpers.zip**
 ![Import Wizard](appeditor.png?height=300px)
-4. Leave all the default settings and click ![Continue button](continue.png?height=40px&classes=inline) twice, and then click **Run Import**
+1. Leave all the default settings and click ![Continue button](continue.png?height=40px&classes=inline) twice, and then click **Run Import**
 ![Select configuration to import](selectconfigs.png?height=250px)
-5. The import should complete without error.
+1. The import should complete without error.
 
 ---
 

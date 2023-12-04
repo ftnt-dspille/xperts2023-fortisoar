@@ -6,9 +6,9 @@ draft: true
 ---
 
 ![user_complete_icon](check_box.svg)
-This solution pack we want to install is called **FortiSOAR-SolutionPack-sunburstAttack-1.0.1.zip** can be found {{% button href="https://fortinet.egnyte.com/dl/eBvgTiPpC2/FortiSOAR-SolutionPack-sunburstAttack-1.0.1.zip_" %}}Here{{% /button %}}.
+This solution pack we want to install is called **FortiSOAR-SolutionPack-sunburstAttack-1.0.1.zip** can be found {{% button href="https://fortinet.egnyte.com/dl/8CzupVYDL4/FortiSOAR-SolutionPack-sunburstAttack-1.0.1.zip_" %}}Here{{% /button %}}.
 
-
+Password: `p9iFpVjg`
 
 ---
 

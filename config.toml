@@ -81,7 +81,7 @@ weight = 7
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-file'></i> Lab CSV Document"
-url = "https://fortinet.egnyte.com/dl/aTtGmeGW2i/fortisoar-workshop-fortimail-users.csv_"
+url = "https://fortinet.egnyte.com/dl/heMZZdjuIN/fortisoar-workshop-fortimail-users.csv_"
 weight = 8
 
 [[menu.shortcuts]]
