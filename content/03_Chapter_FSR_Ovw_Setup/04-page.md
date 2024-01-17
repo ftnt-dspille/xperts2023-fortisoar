@@ -4,10 +4,14 @@ menuTitle: Import Settings
 weight: 20
 ---
 
-![user_complete_icon](check_box.svg)
-Download the FortiSOAR Workshop systems settings {{% button href="https://fortinet.egnyte.com/dl/ksEz9vw3pL/FortiSOAR-SE_Training2023-Workshop.zip_" %}}Here{{% /button %}}. One powerful feature with FortiSOAR is that you can craft up solutions and selectively share your solutions via the Import/Export wizard, found in the System Settings (Gear icon in the top right of the screen). Import/Export options are then at the bottom of the list.
+<!-- ![user_complete_icon](check_box.svg)
+Download the FortiSOAR Workshop systems settings {{% button href="https://fortinet.eg_nyte.com/dl/ksEz9vw3pL/FortiSOAR-SE_Training2023-Workshop.zip_" %}}Here{{% /button %}}. One powerful feature with FortiSOAR is that you can craft up solutions and selectively share your solutions via the Import/Export wizard, found in the System Settings (Gear icon in the top right of the screen). Import/Export options are then at the bottom of the list.
 ![System Settings at the top right](topright.png)
-Password: `p9iFpVjg`
+Password: `p9iFpVjg` -->
+
+![user_complete_icon](check_box.svg)
+Download the FortiSOAR Workshop systems settings {{% button href="/docs/FortiSOAR-SE_Training2023-Workshop.zip" %}}Here{{% /button %}}. One powerful feature with FortiSOAR is that you can craft up solutions and selectively share your solutions via the Import/Export wizard, found in the System Settings (Gear icon in the top right of the screen). Import/Export options are then at the bottom of the list.
+![System Settings at the top right](topright.png)
 
 ---
 

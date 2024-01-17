@@ -12,8 +12,11 @@ Earlier in this lab guide we have shown multiple ways to use new solutions in Fo
 
 ## Download the Playbook Collection
 
-1. Download the Playbook Collection {{% button href="https://fortinet.egnyte.com/dl/WKSz4luWsK/OT_Collection.json_" %}}Here{{% /button %}}
-Password: `p9iFpVjg`
+1. Download the Playbook Collection {{% button href="/docs/OT_Collection.json" %}}Here{{% /button %}}
+{{% notice note %}}
+If the file doesn't auto download after clicking the `Here` button, like in Firefox, click the save button and download the file
+![Save button](save_button_firefox.png)
+{{% /notice %}}
 2. Navigate to **Automation > Playbooks**
 3. Click the **Import** button at the top left.
 ![Import Collection Button](import_collection.png)

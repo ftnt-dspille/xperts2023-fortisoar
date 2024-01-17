@@ -13,9 +13,13 @@ In this workshop we will use FortiMail as our SMTP server.
 - Login with user/pass: fortinet/```$3curityFabric```
 ![Login Screen](fortimail_login.png)
 
-- Download the *fortisoar-workshop-fortimail-users.csv* file {{% button href="https://fortinet.egnyte.com/dl/heMZZdjuIN/fortisoar-workshop-fortimail-users.csv_" %}}Here{{% /button %}} or in your Helpful Resources area to the left labeled **Lab CSV Document**.
+<!-- - Download the *fortisoar-workshop-fortimail-users.csv* file {{% button href="https://fortinet.eg_nyte.com/dl/heMZZdjuIN/fortisoar-workshop-fortimail-users.csv_" %}}Here{{% /button %}} or in your Helpful Resources area to the left labeled **Lab CSV Document**.
 ![Alt text](lab_csv_doc_snip.png)
-Password: `p9iFpVjg`
+Password: `p9iFpVjg` -->
+
+- Download the *fortisoar-workshop-fortimail-users.csv* file {{% button href="/docs/fortisoar-workshop-fortimail-users.csv" %}}Here{{% /button %}}
+![Alt text](lab_csv_doc_snip.png)
+
 
 - Navigate to the **Domain & User > User section** and import the *fortisoar-workshop-fortimail-users.csv* file by clicking **Import CSV** and uploading the file
 ![FortiMail User Page](fml_setup.png)
