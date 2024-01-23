@@ -18,6 +18,9 @@ In this workshop we will use FortiMail as our SMTP server.
 Password: `p9iFpVjg` -->
 
 - Download the *fortisoar-workshop-fortimail-users.csv* file {{% button href="../docs/fortisoar-workshop-fortimail-users.csv" %}}Here{{% /button %}}
+
+[Here](../docs/fortisoar-workshop-fortimail-users.csv) is the link to the file if you are unable to download it from the button above.
+
 ![Alt text](lab_csv_doc_snip.png)
 
 
