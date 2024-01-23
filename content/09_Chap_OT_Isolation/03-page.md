@@ -12,15 +12,12 @@ Earlier in this lab guide we have shown multiple ways to use new solutions in Fo
 
 ## Download the Playbook Collection
 
-1. Download the Playbook Collection {{% button href="/docs/OT_Collection.json" %}}Here{{% /button %}}
-{{% notice note %}}
-If the file doesn't auto download after clicking the `Here` button, like in Firefox, click the save button and download the file
-![Save button](save_button_firefox.png)
-{{% /notice %}}
-2. Navigate to **Automation > Playbooks**
-3. Click the **Import** button at the top left.
+1. Locate the **OT_Collection.json** file that is in your downloaded `all_files` folder.
+
+1. Navigate to **Automation > Playbooks**
+2. Click the **Import** button at the top left.
 ![Import Collection Button](import_collection.png)
-1. Drag the file inside the dashed square, or click inside and select the required file.
+1. Drag the **OT_Collection.json** file inside the dashed square, or click inside and select the required file.
 ![Import Collection Upload](import_collection2.png)
 1. Click the import button
 ![Import Collection Confirm](import_collection3.png)
