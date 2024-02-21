@@ -30,9 +30,9 @@ The **FortiDemo-FortiSOAR-7.4.1-GA** demo is hosted by Fortinet inside FNDN. Not
 |  FortiAnalyzer  | 10.100.88.2  | fortinet/$3curityFabric |
 |    FortiSOAR    | 10.100.88.3  | csadmin/$3curityFabric  |
 |    FortiMail    | 10.100.88.4  | fortinet/$3curityFabric |
-|     Branch1     | 10.100.88.8  |     admin/fortinet      |
-|     Branch2     | 10.100.88.9  |     admin/fortinet      |
-|  FortiManager   | 10.100.88.10 |     admin/fortinet      |
+|     Branch1     | 10.100.88.8  |  admin/$3curityFabric   |
+|     Branch2     | 10.100.88.9  |  admin/$3curityFabric   |
+|  FortiManager   | 10.100.88.10 |  admin/$3curityFabric   |
 
 
 ![Lab Network Topology](lab_topology.png)

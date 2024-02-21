@@ -44,7 +44,7 @@ We're going to Onboard Branch2 to our FortiManager using another method: API.
     - **FortiGate IP**: ```10.100.88.9```
     - **FortiManager**: ```10.100.88.10```
     - **Username**: ```admin```
-    - **Password**: ```fortinet```
+    - **Password**: ```$3curityFabric```
 4. Click **Execute**
 5. Click **Synchronize All FMG DeviceDBs**
 6. Notice that the Branch2 device is now in the **Devices** list and will be automatically assigned the **Branch ZTP Profile**. This is because we set the **Assignment Mode** to **Automatic** in the previous step AND the ZTP profile assignment regex matches the Device Name

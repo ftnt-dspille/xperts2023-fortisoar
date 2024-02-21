@@ -14,9 +14,9 @@ Do not Authorize Branch1. We will do that later.
 {{% /notice %}}
 
 ## Onboard a FortiGate
-1. Login to Branch1 using admin/```fortinet```
+1. Login to Branch1 using admin/```$3curityFabric```
 2. Navigate to **Security Fabric > Fabric Connectors**.
-2. Click **Central Management**
+3. Click **Central Management**
     - Click **Enabled**
     - Type ```10.100.88.10``` in the **IP Address** field.
     - Click OK
@@ -25,7 +25,7 @@ Do not Authorize Branch1. We will do that later.
 
 
 ## Confirm FortiGate is unauthorized in FortiManager
-1. Login to FortiManager using admin/```fortinet```
+1. Login to FortiManager using admin/``$3curityFabric```
 2. Navigate to **Device Manager > Unauthorized Devices**
 3. Confirm that the Branch1 FortiGate is listed
 
@@ -42,7 +42,7 @@ Do not Authorize Branch1. We will do that later.
 3. Type in ```Golden_Branch``` for the **Name** and click **OK** at the bottom of the page.
 
 ## Create Policy
-1. Select **Policy Packages > Golden_Branch > Firewall Policy** 
+1. Select **Policy Packages > Golden_Branch > Firewall Policy**
 ![golden_branch](golden_branch.png)
 2. Click **Create New > Create New**  to create a new policy
 ![create_new_policy](create_new_policy.png)
