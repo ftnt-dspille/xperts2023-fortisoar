@@ -30,7 +30,7 @@ title = "Can't Code? No Problem"
 
 
   # Small text under the title
-  logoBannerSubText = "Internal Only"
+#  logoBannerSubText = "Internal Only"
 
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = true
