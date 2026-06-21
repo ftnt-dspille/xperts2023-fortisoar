@@ -1,0 +1,89 @@
+{
+  "name": "dad-joke",
+  "version": "1.0.0",
+  "label": "Dad Joke",
+  "description": "Online sample connector that calls the icanhazdadjoke.com REST API. Demonstrates configuration, headers, and live HTTP calls.",
+  "publisher": "Community",
+  "icon_small_name": "small_icon.png",
+  "icon_large_name": "large_icon.png",
+  "category": "Utilities",
+  "cs_approved": false,
+  "cs_compatible": true,
+  "help_online": "https://icanhazdadjoke.com/api",
+  "configuration": {
+    "fields": [
+      {
+        "name": "server_url",
+        "title": "API Base URL",
+        "type": "text",
+        "required": true,
+        "editable": true,
+        "visible": true,
+        "tooltip": "Base URL for the dad joke API. Use https://icanhazdadjoke.com unless you have a mirror."
+      },
+      {
+        "name": "user_agent",
+        "title": "User-Agent",
+        "type": "text",
+        "required": true,
+        "editable": true,
+        "visible": true,
+        "value": "FortiSOAR Dad Joke Sample (https://github.com/your-org)",
+        "tooltip": "icanhazdadjoke.com requires a descriptive User-Agent identifying your application and a contact URL."
+      }
+    ]
+  },
+  "operations": [
+    {
+      "operation": "random_joke",
+      "title": "Random Joke",
+      "description": "Returns a random dad joke.",
+      "parameters": [],
+      "enabled": true
+    },
+    {
+      "operation": "joke_by_id",
+      "title": "Joke by ID",
+      "description": "Fetches a specific dad joke by its ID.",
+      "parameters": [
+        {
+          "name": "joke_id",
+          "title": "Joke ID",
+          "type": "text",
+          "required": true,
+          "editable": true,
+          "visible": true,
+          "tooltip": "The ID returned in the `id` field of a previous joke response."
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "operation": "search_jokes",
+      "title": "Search Jokes",
+      "description": "Searches dad jokes for a term.",
+      "parameters": [
+        {
+          "name": "term",
+          "title": "Search Term",
+          "type": "text",
+          "required": false,
+          "editable": true,
+          "visible": true,
+          "tooltip": "Word or phrase to search for. Leave blank to list jokes without filtering."
+        },
+        {
+          "name": "limit",
+          "title": "Limit",
+          "type": "integer",
+          "required": false,
+          "editable": true,
+          "visible": true,
+          "value": 10,
+          "tooltip": "Page size (1-30)."
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}
